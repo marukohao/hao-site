@@ -1,42 +1,26 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import React, { useState } from "react";
+import headerStyles from "../styles/header.module.css";
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+
+export default function Header() {
+  const [logout, setLogout] = useState(false);
+
+  // const handleClick = () => {
+  //   localStorage.setItem("jwt", null);
+  //   localStorage.setItem("data", null);
+  //   setLogout(true);
+  // };
+
+  return (
+    <div className={headerStyles.container}>
+      <h3 className={headerStyles.font}>Hao</h3>
+      <div className={headerStyles.innerContainer}>
+        <h5 className={headerStyles.font}>Home</h5>
+        <h5 className={headerStyles.font}>About Me</h5>
+        <h5 className={headerStyles.font}>Projects</h5>
+        <h5 className={headerStyles.font}>Education</h5>
+        <h5 className={headerStyles.font}>Experience</h5>
+      </div>      
     </div>
-  </header>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
+  );
 }
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
-
-export default Header
