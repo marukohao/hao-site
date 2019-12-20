@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One|Quicksand:300&display=swap');
+html {
+    background-color: #ffffff;
+    margin: 3% 10% 2% 10%;
+  }
+
+ * {
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+ }
+
+ h1, h2, h3, h4, h5 {
+   font-family: 'Quicksand', sans-serif;
+ }
+

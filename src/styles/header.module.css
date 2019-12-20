@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One|Quicksand:300&display=swap');
+
+
+.container {   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2% 0;
+}
+
+.innerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.font {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 2%;
+}
