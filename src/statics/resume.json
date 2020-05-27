@@ -5,17 +5,11 @@
     "label": "Software Engineer",
     "picture": "",
     "email": "marukohao@gmail.com",
-    "phone": "(631)988-4928",
+    "phone": "(631) 988-4928",
     "linkedin": "https://www.linkedin.com/in/haowang1989/",
     "github": "https://github.com/marukohao",
     "about": "Dynamic and detail-oriented full-stack web developer with a passion for coding, learning and creating, with experience in Ruby on Rails, JavaScript, and React. I am a self-motivated fast learner, who can solve problems as an individual contributor or as a team member, and bring innovation and efficiency to companies.",
-    "location": {
-      "address": "520 Terry Avenue",
-      "postalCode": "98104",
-      "city": "Seattle",
-      "countryCode": "US",
-      "state": "WA"
-    },
+    "address": "520 Terry Avenue, Seattle, WA, 98104",
     "profiles": [
       {
         "network": "",
@@ -31,6 +25,7 @@
       "website": "",
       "gitFrontend": "https://github.com/marukohao/food-buddy-web",
       "gitBackend": "https://github.com/marukohao/food-buddy-backend",
+      "images": ["../images/cute-cute1.png", "../images/cute-cute2.png", "../images/cute-cute3.png"],
       "detail": [
         "Developed a Rails API with endpoints for users, restaurants, events, messages and notifications",
         "Implemented user interface with React, Redux and utilized Ant Design as the UI library",
@@ -44,6 +39,7 @@
       "website": "https://tab-type-racer.herokuapp.com/",
       "gitFrontend": "https://github.com/marukohao/TaBTypeRacer",
       "gitBackend": "https://github.com/marukohao/TaBTypeRacer",
+      "images": ["../images/cute-cute1.png", "../images/cute-cute2.png", "../images/cute-cute3.png"],
       "detail": [
         "Developed a SPA using React for front-end and Ruby on Rails for back-end with CSS for styling",
         "Used paragraphs from two books for typing challenges to acquire data on users",
@@ -57,6 +53,7 @@
       "website": "https://marukohao.github.io/cute-cute-frontend/",
       "gitFrontend": "https://github.com/marukohao/cute-cute-frontend",
       "gitBackend": "https://github.com/marukohao/cute-cute-app",
+      "images": ["../images/cute-cute1.png", "../images/cute-cute2.png", "../images/cute-cute3.png"],
       "detail": [
         "Developed using Vanilla JavaScript for front-end, Rails as the back-end, styled using CSS",
         "Deployed back-end using Heroku and front-end using GitHub page"
@@ -65,7 +62,19 @@
   ],
   "work": [
     {
-      "company": "Qosina Corporation",
+      "name": "Project Untaboo",
+      "position": "Software Enginner",
+      "address": "Seattle, WA",
+      "startDate": "11/2019",
+      "endDate": "present",
+      "details": [
+        "Collaborated with the engineering team on technical decisions including technologies used for our project.",
+        "Develop front end features using Javascript, React-Native, Redux, Formik for mobile application.",
+        "Design wireframes with UI team; participate in project’s flow with UI and Engineering team."
+      ]
+    },
+    {
+      "name": "Qosina Corporation",
       "position": "Material Enginner",
       "address": "Ronkonkoma, NY",
       "startDate": "10/2013",
@@ -103,13 +112,11 @@
       "thesis": ""
     }
   ],
-  "skills": [
-    {
-      "Languages": "Ruby, JavaScript, HTML, CSS, SQL",
-      "Frameworks": "Ruby on Rails, React.js, Next.js, Redux, Ant Design",
-      "Tools": "VS Code, Chrome Devtools, Git, NPM, PostgreSQL, SQLite, Adobe XD, Linux, Windows"
-    }
-  ],
+  "skills": {
+    "Languages": "Ruby, JavaScript, HTML, CSS, SQL",
+    "Frameworks": "Ruby on Rails, React.js, React Native, Next.js, Redux, Formik, Ant Design",
+    "Tools": "VS Code, Chrome Devtools, Git, NPM, PostgreSQL, SQLite, Firebase,  Adobe XD, Linux, Windows"
+  },
   "languages": [
     {
       "language": "English, Mandarin"

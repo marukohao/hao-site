@@ -1,0 +1,22 @@
+.projectContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 350px;
+  width: 100%;
+}
+
+.detail {
+  width: 35%;
+  /* background-color: blue; */
+  height: 350px;
+}
+
+.link {
+  padding: 2px;
+  /* border: 2px solid lightgrey; */
+  border-radius: 25px;
+  cursor: pointer;
+  display: block;
+  margin: 5px;
+}

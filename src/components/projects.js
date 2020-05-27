@@ -1,28 +1,41 @@
-import React from "react";
-import projectsStyles from "../styles/projects.module.css";
-import { graphql } from "gatsby";
-import Image from "./image"
+import React from "react"
+import Project from "./project.js"
+import styled from "styled-components"
 
-export default function Projects({ data }) {
+const StyledProjects = styled.div`
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+`
+const StyledProjectsHeader = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px 0;
+`
 
+const StyledSpan = styled.span`
+  display: block;
+  height: 64px; /*same height as header*/
+  margin-top: -64px; /*same height as header*/
+  visibility: hidden;
+`
+
+export default function Projects({ projects }) {
   return (
-    <div className={projectsStyles.container}>
-      <div className={projectsStyles.innerContainer}>
-        <h1 className={projectsStyles.font}>MY PROJECTS</h1>
-        <h4 className={projectsStyles.font}>What I've Done</h4>
+    <StyledProjects id="projects">
+      <StyledSpan></StyledSpan>
+      <StyledProjectsHeader>
+        <h1>MY PROJECTS</h1>
+        <p>What I've Done</p>
+      </StyledProjectsHeader>
+      <div>
+        {projects.map((project, index) => {
+          return <Project project={project} />
+        })}
       </div>
-      <div className={projectsStyles.projectContainer}>
-        <div className={projectsStyles.detail}>
-          <h2 className={projectsStyles.font}>CUTE-CUTE</h2>
-          <h5 className={projectsStyles.font}> A children’s game that allows users to create rooms and add stickers in each room
-</h5>
-          <a href="https://github.com/marukohao/food-buddy-web" target="_blank"><button className={projectsStyles.font, projectsStyles.link}>Git Repo</button></a>
-          <a href="https://marukohao.github.io/cute-cute-frontend/" target="_blank"><button className={projectsStyles.font, projectsStyles.link}>Depolyed Website</button></a>
-        </div>
-        <div className={projectsStyles.detail}>
-          <Image />
-        </div>
-      </div>
-    </div>
-  );
+    </StyledProjects>
+  )
 }
