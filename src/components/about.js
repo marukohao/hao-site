@@ -26,10 +26,13 @@ const StyledAboutImage = styled.img`
 
   @media (min-width: 768px) {
     width: 50%;
+    margin-left: 20px;
+    // height: 100%;
   }
 `
 const StyledAboutDetails = styled.p`
   padding-top: 10px;
+
 `
 
 const StyledSpan = styled.span`
@@ -37,6 +40,9 @@ const StyledSpan = styled.span`
   height: 64px; /*same height as header*/
   margin-top: -64px; /*same height as header*/
   visibility: hidden;
+  @media (min-width: 768px) {
+    margin-top: 0;
+  }
 `
 
 export default function About({ basics }) {

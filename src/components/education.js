@@ -20,6 +20,9 @@ const StyledSpan = styled.span`
   height: 64px; /*same height as header*/
   margin-top: -64px; /*same height as header*/
   visibility: hidden;
+  @media (min-width: 768px) {
+    margin-top: 0;
+  }
 `
 
 export default function Education({ education }) {

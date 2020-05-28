@@ -4,6 +4,7 @@ import styled from "styled-components"
 
 const StyledWork = styled.div`
   @media (min-width: 768px) {
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,20 +17,20 @@ const StyledWorkHeader = styled.div`
   margin: 25px 0;
 `
 const StyledWorkContent = styled.div`
-  @media (min-width:768px) {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 450px;
-    width: 100%;
-  }
+  // @media (min-width:768px) {
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-content: space-between;
+  //   // height: 450px;
+  //   width: 100%;
+  // }
 `
 const StyledWorkColumn = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   @media (min-width: 768px) {
-    width: 50%;
+    // width: 50%;
   }
 `
 const StyledSpan = styled.span`
@@ -37,6 +38,9 @@ const StyledSpan = styled.span`
   height: 64px; /*same height as header*/
   margin-top: -64px; /*same height as header*/
   visibility: hidden;
+  @media (min-width: 768px) {
+    margin-top: 0;
+  }
 `
 
 export default function Work({ work }) {

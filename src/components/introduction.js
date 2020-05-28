@@ -18,8 +18,14 @@ const StyledIntroductionContent = styled.h1`
   padding: 10px;
   font-size: 30px;
   color: black;
-  @media (min-width=768px) {
-    font-size: 60px;
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
+`
+
+const StyledIntroductionImage = styled.img`
+  @media (min-width: 768px) {
+    margin-bottom: 20px;
   }
 `
 
@@ -28,7 +34,7 @@ export default function Introduction({ basics }) {
 
   return (
     <StyledIntroduction id="home">
-      <img src="https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"></img>
+      <StyledIntroductionImage src="https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"></StyledIntroductionImage>
       <StyledIntroductionContainer>
         <StyledIntroductionContent>{label}</StyledIntroductionContent>
       </StyledIntroductionContainer>

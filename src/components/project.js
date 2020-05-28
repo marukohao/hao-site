@@ -10,14 +10,12 @@ const StyledProject = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 350px;
     width: 100%;
   }
 `
 const StyledProjectDetail = styled.div`
   @media (min-width: 768px) {
-    width: 35%;
-    height: 350px;
+    width: 45%;
   }
 `
 

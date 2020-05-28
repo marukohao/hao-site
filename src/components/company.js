@@ -6,7 +6,7 @@ const StyledCompany = styled.div`
   flex-direction: column;
   align-items: center;
   color: grey;
-  margin: 30px;
+  margin: 25px;
 `
 
 const StyledCompanyDetail = styled.h4`

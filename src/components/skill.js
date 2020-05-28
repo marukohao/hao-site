@@ -20,7 +20,7 @@ const StyledSkillContent = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 450px;
+    height: auto;
     width: 100%;
   }
 `
@@ -33,7 +33,7 @@ const StyledSkillColumn = styled.div`
   color: grey;
   @media (min-width: 768px) {
     width: 32%;
-    height: 450px;
+    height: auto;
   }
 `
 
@@ -42,6 +42,9 @@ const StyledSpan = styled.span`
   height: 64px; /*same height as header*/
   margin-top: -64px; /*same height as header*/
   visibility: hidden;
+  @media (min-width: 768px) {
+    margin-top: 0;
+  }
 `
 
 export default function Skill({ skills }) {
