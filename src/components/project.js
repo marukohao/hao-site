@@ -68,24 +68,26 @@ export default function Projects({ data, project }) {
         <a href="https://github.com/marukohao/food-buddy-web" target="_blank">
           <StyledProjectLink>Git Repo</StyledProjectLink>
         </a>
-        <a
-          href="https://marukohao.github.io/cute-cute-frontend/"
-          target="_blank"
-        >
+        <a href={project.website} target="_blank">
           <StyledProjectLink>Depolyed Website</StyledProjectLink>
         </a>
       </StyledProjectDetail>
       <StyledProjectDetail>
         <Carousel>
           <div>
-            <img src={require("../images/cute-cute1.png")} />
+            <img src={require(`../images/${images[0]}.png`)} />
           </div>
           <div>
-            <img src={require("../images/cute-cute2.png")} />
+            <img src={require(`../images/${images[1]}.png`)} />
           </div>
           <div>
-            <img src={require("../images/cute-cute3.png")} />
+            <img src={require(`../images/${images[2]}.png`)} />
           </div>
+          {/* {images[3] ? (
+            <div>
+              <img src={require(`../images/${images[3]}.png`)} />
+            </div>
+          ) : null} */}
           {/* {images.map(image => (
             <div>
               <img src={require("../images/cute-cute1.png")} />

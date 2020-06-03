@@ -55,7 +55,7 @@ export default function Connect({ basics }) {
         >
           <FaGithub />
         </a>
-        <a
+        {/* <a
           href="https://www.facebook.com/profile.php?id=100001378977969"
           target="_blank"
         >
@@ -65,8 +65,8 @@ export default function Connect({ basics }) {
           href="https://www.instagram.com/marukogena/"
           target="_blank"
         >
-          <FaInstagram />
-        </a>
+          <FaInstagram /> */}
+        {/* </a> */}
       </StyledConnectIcon>
     </StyledConnect>
   )

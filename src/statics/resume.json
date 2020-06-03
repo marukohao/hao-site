@@ -25,7 +25,7 @@
       "website": "",
       "gitFrontend": "https://github.com/marukohao/food-buddy-web",
       "gitBackend": "https://github.com/marukohao/food-buddy-backend",
-      "images": ["../images/cute-cute1.png", "../images/cute-cute2.png", "../images/cute-cute3.png"],
+      "images": ["share-table1", "share-table2", "share-table3", "share-table4", "share-table5"],
       "detail": [
         "Developed a Rails API with endpoints for users, restaurants, events, messages and notifications",
         "Implemented user interface with React, Redux and utilized Ant Design as the UI library",
@@ -39,7 +39,7 @@
       "website": "https://tab-type-racer.herokuapp.com/",
       "gitFrontend": "https://github.com/marukohao/TaBTypeRacer",
       "gitBackend": "https://github.com/marukohao/TaBTypeRacer",
-      "images": ["../images/cute-cute1.png", "../images/cute-cute2.png", "../images/cute-cute3.png"],
+      "images": ["type-racer1", "type-racer2", "type-racer3"],
       "detail": [
         "Developed a SPA using React for front-end and Ruby on Rails for back-end with CSS for styling",
         "Used paragraphs from two books for typing challenges to acquire data on users",
@@ -53,7 +53,7 @@
       "website": "https://marukohao.github.io/cute-cute-frontend/",
       "gitFrontend": "https://github.com/marukohao/cute-cute-frontend",
       "gitBackend": "https://github.com/marukohao/cute-cute-app",
-      "images": ["../images/cute-cute1.png", "../images/cute-cute2.png", "../images/cute-cute3.png"],
+      "images": ["cute-cute2", "cute-cute1", "cute-cute3"],
       "detail": [
         "Developed using Vanilla JavaScript for front-end, Rails as the back-end, styled using CSS",
         "Deployed back-end using Heroku and front-end using GitHub page"
@@ -68,9 +68,9 @@
       "startDate": "11/2019",
       "endDate": "present",
       "details": [
-        "Collaborated with the engineering team on technical decisions including technologies used for our project.",
-        "Develop front end features using Javascript, React-Native, Redux, Formik for mobile application.",
-        "Design wireframes with UI team; participate in project’s flow with UI and Engineering team."
+        "Collaborate with 7 people in engineering team on technical decisions including mobile development framework, database and unit test package used for our project",
+        "Develop front end chat features, request/response flow using Javascript, React-Native, Redux, Formik, jest for mobile application",
+        "Design 15+ wireframes with UI team; participate in project’s flow with UI and Engineering team"
       ]
     },
     {
@@ -80,9 +80,9 @@
       "startDate": "10/2013",
       "endDate": "11/2015",
       "details": [
-        "Verified the material in the company’s system matched those in the supplier documents, updated MSDS, Material technical data sheets and product stewardship documents.",
-        "Reviewed material performance characteristics of the components to determine if they were equivalent. Managed the material change notification information.",
-        "Provided the customer with the material data, REACH compliance, RoHS compliance and Mineral conflict information. Communicated with customers to solve the technical issues of the defective products."
+        "Verified the material in the company’s system matched those in the supplier documents, updated MSDS, MTDS and product stewardship documents which provides our customer the most up to date information",
+        "Evaluated material performance characteristics of the incoming components to reduce material error rates Managed the material change notification information",
+        "Provided the customer with the material data, REACH compliance, RoHS compliance and Mineral conflict information. Communicated with customers to solve the technical issues of the defective products"
       ]
     }
   ],
